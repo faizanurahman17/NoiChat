@@ -1,6 +1,60 @@
+:root{
+    --theme-color: #3569C8;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+}
+.material-symbols-outlined{
+    color: #FFFFFF;
+}
+body,.wrapper{
+    width: 100svw;
+    height: 100svh;
+    background-color: #EFF6FC;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.wrapper{
+    padding: 20px;
+}
+.container1{
+    width: 150px;
+    height: 100%;
+    background-color: var(--theme-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.container1 button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.icons span{
+    font-size: 35px!important;
+}
+.profile-img-cont {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+}
+.profile-icon {
+    font-family: 'Material Symbols Outlined', sans-serif; 
+    font-size: 80px!important; 
+    line-height: 1; 
+    background-color: #fff;
+    border-radius: 50%;
+    color: var(--theme-color);
+    font-weight: 200!important;
 }
