@@ -98,18 +98,19 @@ body,.wrapper{
     display: grid;
     gap: 2px;
     grid-template-rows: repeat(3,1fr);
-    overflow: scroll;
+    overflow: auto;
 }
 .li-grouplist,.li-peoplelist {
+    height: 100px;
     background-color: white;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.people-container{
+/* .people-container{
 
-}
+} */
 .container3{
     width: 900px;
     height: 100%;
